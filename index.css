@@ -1,0 +1,107 @@
+/* DESIGN BY: Lucas */
+@font-face {
+    font-family: 'Pixeled';
+    src: url('fonts/Pixeled.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'babyblue';
+    src: url('fonts/babyblue.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-image: url("media/pixel_stars.png");
+	 background-position: center;
+	 background-repeat: repeat-y;
+	width: 100%;
+	height:1000px;
+	text-align:center;
+	padding-right:10px;
+	padding-left: 10px;
+}
+h1{
+	font-family: "Pixeled",sans-serif;
+	color:white;
+}
+a{
+	color:whitesmoke;
+	text-decoration:none;
+}
+p{
+	font-family: "Lucida Console",sans-serif;
+	color:yellow;
+}
+ul li{
+	display: inline;
+	list-style: none;
+	padding: 0 10px;
+	font-family: "Lucida Console",sans-serif;
+	font-size:19px;
+}
+a:hover{
+	color: lightgreen;
+}
+/* Balões */
+.Balao{
+	padding-top: 5px;
+    margin-top: 35px;
+    margin-right:20%;
+    margin-left:20%;
+    background-color:#000000;
+    border: 2px solid white;
+}
+.Balao p{
+	font-family:"babyblue",sans-serif;
+    font-size: 26px;
+    color:white;
+    text-align:justify;
+    text-indent:20px;
+    padding-right:20px;
+    padding-left:20px;
+}
+.Balao h2{
+	font-family: "Lucida Console",sans-serif;
+	text-indent:20px;
+	text-align:left;
+	color: lightblue;
+}
+.Balao h3{
+	font-family: "babyblue",sans-serif;
+	font-weight:bold;
+	text-indent:20px;
+	text-align:left;
+	color: yellow;
+}
+.Balao h4{
+	font-family: "babyblue",sans-serif;
+	font-weight:bold;
+	text-align:left;
+	color: lightgreen;
+}
+.Balao a{
+	 color:orange;
+}
+.Balao a:hover{
+	color:yellow;
+}
+.Balao ul li{
+	display:block;
+	font-family:"babyblue",sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+/* RODAPÉ */
+#redes_sociais{
+	list-style: none;
+}
+#redes_sociais li {
+	display:inline;
+}
+#redes_sociais a:hover{
+	opacity: 0.5;
+}
