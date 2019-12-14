@@ -20,6 +20,7 @@
     <meta name="twitter:description" content="I'm an Brazilian game dev who likes Nintendo games and is divided between half-artist and half-programmer">
     <meta name="twitter:image" content="https://teclucas98.github.io/Portfolio/media/tmbTwitter.png">
     <meta name="twitter:card" content="summary">
+    
     <!--IMPORTAÇÕES-->
     <link href="css/design.css" rel="stylesheet" id="Design"/>
     <link rel="shortcut icon" href="media/icone.png" type="image/png">
@@ -27,102 +28,111 @@
     <script src="js/Funcoes.js"></script>
 </head>
 <body>
-    <span ><a href="javascript:modoNoturno()"><img src="media/noite.png" id="ModoNoturno"></a></span>
+    <ul class="redes-sociais" id="destaque-redes-sociais">
+        <li><a href="www.twitter.com/Teclucas98"><img src="media/Tweet.png"></a><span>Twitter</span></li>
+        <li><a href="https://www.linkedin.com/in/lucas-matheus-costa-8794b416b/"><img src="media/Linkedin.png"></a><span>Linkedin</span></li>
+        <li><a href="https://github.com/Teclucas98/"><img src="media/GitHub.png"></a><span>Github</span></li>
+        <li><a href="https://teclucas98.itch.io/"><img src="media/itch_io.png"></a><span>Itch.io</span></li>
+        <li><a href="http://www.estudiodoluk.com.br/"><img src="media/Op_site.png"></a><span>Site</span></li>
+    </ul>
     <header>
         <figure>
-            <img src="media/logo.svg" alt="Logomarca"/>
+            <img src="media/luk.svg" alt="">
         </figure>
-        <ul class="topicos">
-            <a href="#Bio"><li>#Biografia</li></a>
-            <a href="#Exp"><li>#Experiencias</li></a>
-            <a href="#Projects"><li>#Projetos</li></a>
-            <a href="#CeH"><li>#Competências & Interesses</li></a>
-        </ul>
+        <nav class="topicos" id="tarja-de-info">
+            <li><a href="#Bio">#Bio</a></li>
+            <li><a href="#Exp">#Works</a></li>
+            <li><a href="#Projects">#Projects</a></li>
+            <li><a href="#CeH">#Arsenal</a></li>
+            <li><a href="#Talk">#Talk</a>
+        </nav>
     </header>
-    <section id="Bio">
-        <h1>Biografia</h1>
-        <p>Meu nome verdadeiro é Lucas Matheus Cardoso da Costa, Tenho 20 anos, sou de origem brasileira e residente na cidade de Belém-PA.</p>
-		<p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Universidade do Estado do Pará – Campus XX em Castanhal-PA, com previsão de conclusão para julho de 2020. </p>
-		<p>Digamos que eu sou um Cientista da Informática, sou auto-ditada onde mesmo com poucos recursos, nada impede a minha sede de conhecimento ,extrair o máximo de informações e resolver problemas com todos os desafios que são me impostos, sendo apaixonado pela mescla de tecnologia da informação com produção artística.</p> 
-    </section>
-    <section id="Exp">
-        <h1>Experiência Profissional</h1>
-        <h2>Único Trabalho "Profissional"</h2>
-		<p>Participei da Global Game Jam no inicio de 2018 como Programador e <em>"Character Designer"</em> para a produção do Jogo Fast Transmition em parceria com a Mytch Entertainment, isso me mostrou e ensinou o trabalho em equipe para o desenvolvimento de um produto.</p>
-		<h2>Edição de Vídeo</h2>
-		<p>Eu trabalhei como Editor de Vídeo por um curto periodo de tempo, entre 2012 e 2016, e desenvolvi desde trabalhos escolares como Paródias musicais até produções completas para alguns canais do youtube como o Nerdometro e a Casa da Edição, aprendi um pouco mais do relacionamento Profissional-Cliente, além de me despertar um leque de criatividade para vários conteúdos diferentes.</p>
-    </section>
-    <section id="Projects">
-        <h1>Projetos</h1>
-        <h2>Estúdio do Luk e <em>'By: Luk'</em></h2>
-        <p>Até 2018 como hobby ocasional, O Estúdio do Luk é onde eu faço produções audiovisuais voltadas para o tema nerd ou gamer por motivos pessoais, atendendo pelo codenome <strong>Luk</strong>(lê-se Luke).</p>
-        <h2>NightLabs</h2>
-        <p>Com o curso de TADS e uma paixão antiga por jogos nasceu a NightLabs Software, antes batizada de Lonely Leaf Team na GGJ2018, um estúdio de jogos informal formado por amigos que sonham ser gamedevs profissionais, atualmente ele tá com o seu primeiro projeto Silent Library. Eu(Lucas) estou responsável por 85% do projeto, recebendo ajuda principalmente com roteiro e trilha sonora que será produzida pelo produtor musical <a href="https://lnhgabe.wixsite.com/rockemissary">Gabe Lanhellas</a>.</p>
-    </section>
-    <section id="CeH">
-        <h1>Competências e Habilidades</h1>
-        <h2>Design & Produção Audiovisual</h2>
-		<ul>
-			<li>Adobe Photoshop</li>
-			<li>Adobe Illustrator</li>
-			<li>Adobe Premiere</li>
-			<li>Adobe After Effects</li>
-			<li>Vegas Pro</li>
-            <li>FL Studio</li>
-            <li>3D MAX</li>
-		</ul>
-		<h2>Programação e Desenvolvimento</h2>
-		<ul>
-			<h3>Front-End</h3>
-			<li>HTML 5</li>
-			<li>CSS 3</li>
-			<li>JavaScript</li>
-            <li>JQuery</li>
-            <h3>Back-End</h3>
-            <li>PHP 7</li>
-			<h3>Linguagens de Programação</h3>
-            <li>C</li>
-            <li>C# <i>(Aprendendo)</i></li>
-            <li>Java</li>
-            <li>GML</li>
-			<li>Python</li>
-        </ul>
-        <h2>Desenvolvimento Mobile</h2>
-        <ul>
-            <li>Android Studio <i>(Aprendendo)</i></li>
-        </ul>
-		<h2>Banco de Dados</h2>
-		<ul>
-            <li>Modelagem de Banco de Dados</li>
-            <li>Normalização de Banco de dados</li>
-			<li>Banco de Dados Relacionais</li>
-            <li>SGBD : Microsoft SQL Server</li>
-            <li>SGBD : MySQL</li>
-            <li>PostgreSQL</li>
-		</ul>
-		<h2>Desenvolvimento de Jogos</h2>
-		<ul>
-            <li>Elaboração de GDD (Game Design Document)</li>
-            <li>RPG Maker 2003</li>
-			<li>RPG Maker MV</li>
-            <li>GameMaker 1.2</li>
-            <li>Piskel</li>
-			<li>Adobe Flash Pro CS6</li>
-		</ul>
-		<h2>Versionamento de Código</h2>
-		<ul>
-			<li>Github</li>
-		</ul>
-    </section>
-    <footer>
-            <ul class="redes-sociais">
+    <section class="balao">
+        <section id="Bio">
+            <h1>Biografia</h1>
+            <p>Meu nome verdadeiro é Lucas Matheus Cardoso da Costa, Tenho 20 anos, sou de origem brasileira e residente na cidade de Belém-PA.</p>
+		    <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Universidade do Estado do Pará – Campus XX em Castanhal-PA, com previsão de conclusão para julho de 2020. </p>
+		    <p>Digamos que eu sou um Cientista da Informática, sou auto-ditada onde mesmo com poucos recursos, nada impede a minha sede de conhecimento ,extrair o máximo de informações e resolver problemas com todos os desafios que são me impostos, sendo apaixonado pela mescla de tecnologia da informação com produção artística.</p> 
+        </section>
+        <section id="Exp">
+            <h1>Experiencia Profissional</h1>
+            <h2>Único Trabalho "Profissional"</h2>
+		    <p>Participei da Global Game Jam no inicio de 2018 como Programador e <em>"Character Designer"</em> para a produção do Jogo Fast Transmition em parceria com a Mytch Entertainment, isso me mostrou e ensinou o trabalho em equipe para o desenvolvimento de um produto.</p>
+		    <h2>Edição de Vídeo</h2>
+		    <p>Eu trabalhei como Editor de Vídeo por um curto periodo de tempo, entre 2012 e 2016, e desenvolvi desde trabalhos escolares como Paródias musicais até produções completas para alguns canais do youtube como o Nerdometro e a Casa da Edição, aprendi um pouco mais do relacionamento Profissional-Cliente, além de me despertar um leque de criatividade para vários conteúdos diferentes.</p>
+        </section>
+        <section id="Projects">
+            <h1>Projetos</h1>
+            <h2>Estúdio do Luk e <em>'By: Luk'</em></h2>
+            <p>Até 2018 como hobby ocasional, O Estúdio do Luk é onde eu faço produções audiovisuais voltadas para o tema nerd ou gamer por motivos pessoais, atendendo pelo codenome <strong>Luk</strong>(lê-se Luke).</p>
+            <h2>NightLabs</h2>
+            <p>Com o curso de TADS e uma paixão antiga por jogos nasceu a NightLabs Software, antes batizada de Lonely Leaf Team na GGJ2018, um estúdio de jogos informal formado por amigos que sonham ser gamedevs profissionais, atualmente ele tá com o seu primeiro projeto Silent Library. Eu(Lucas) estou responsável por 85% do projeto, recebendo ajuda principalmente com roteiro e trilha sonora que será produzida pelo produtor musical <a href="https://lnhgabe.wixsite.com/rockemissary">Gabe Lanhellas</a>.</p>
+        </section>
+        <section id="CeH">
+            <h1>Competencias e Habilidades</h1>
+            <h2>Design & Produção Audiovisual</h2>
+		    <ul>
+			    <li>Adobe Photoshop</li>
+			    <li>Adobe Illustrator</li>
+			    <li>Adobe Premiere</li>
+			    <li>Adobe After Effects</li>
+			    <li>Vegas Pro</li>
+                <li>FL Studio</li>
+                <li>3D MAX</li>
+		    </ul>
+		    <h2>Programação e Desenvolvimento</h2>
+		    <ul>
+			    <h3>Front-End</h3>
+			    <li>HTML 5</li>
+			    <li>CSS 3</li>
+			    <li>JavaScript</li>
+                <li>JQuery</li>
+                <h3>Back-End</h3>
+                <li>PHP 7</li>
+			    <h3>Linguagens de Programação</h3>
+                <li>C</li>
+                <li>C# <i>(Aprendendo)</i></li>
+                <li>Java</li>
+                <li>GML</li>
+			    <li>Python</li>
+            </ul>
+            <h2>Desenvolvimento Mobile</h2>
+            <ul>
+                <li>Android Studio <i>(Aprendendo)</i></li>
+            </ul>
+		    <h2>Banco de Dados</h2>
+		    <ul>
+                <li>Modelagem de Banco de Dados</li>
+                <li>Normalização de Banco de dados</li>
+			    <li>Banco de Dados Relacionais</li>
+                <li>SGBD : Microsoft SQL Server</li>
+                <li>SGBD : MySQL</li>
+                <li>PostgreSQL</li>
+		    </ul>
+		    <h2>Desenvolvimento de Jogos</h2>
+		    <ul>
+                <li>Elaboração de GDD (Game Design Document)</li>
+                <li>RPG Maker 2003</li>
+			    <li>RPG Maker MV</li>
+                <li>GameMaker 1.2</li>
+                <li>Piskel</li>
+			    <li>Adobe Flash Pro CS6</li>
+		    </ul>
+		    <h2>Versionamento de Código</h2>
+		    <ul>
+			    <li>Github</li>
+		    </ul>
+        </section>
+        <footer>
+                <ul class="redes-sociais">
                     <li><a href="www.twitter.com/Teclucas98"><img src="media/Tweet.png"></a></li>
                     <li><a href="https://www.linkedin.com/in/lucas-matheus-costa-8794b416b/"><img src="media/Linkedin.png"></a></li>
-                    <li><a href="https://github.com/LucasMatheusCosta/"><img src="media/GitHub.png"></a></li>
+                    <li><a href="https://github.com/Teclucas98/"><img src="media/GitHub.png"></a></li>
                     <li><a href="mailto:teclucas.costa@hotmail.com"><img src="media/Email.png"></a></li>
-                    <li><a href="https://estudiodoluk.000webhostapp.com/"><img src="media/Op_site.png"></a></li>
-            </ul>
-        &copy; 2019 - Lucas Matheus Costa <br/> Developed by: Lucas Matheus Costa <br/> Email : <i>teclucas.costa@hotmail.com</i>
-    </footer>
+                    <li><a href="http://www.estudiodoluk.com.br/"><img src="media/Op_site.png"></a></li>
+                </ul>
+            &copy; 2019 - Lucas Matheus Costa <br/> Developed by: Lucas Matheus Costa <br/> Email : <i>teclucas.costa@hotmail.com</i>
+        </footer>
+    </section>
 </body>
 </html>

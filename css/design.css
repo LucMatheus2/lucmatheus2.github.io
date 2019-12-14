@@ -1,5 +1,67 @@
+@font-face{
+	font-family: "Fipps";
+	src: url("../font/Fipps-Regular.otf");
+}
+@font-face{
+	font-family: "8BIT";
+	src: url("../font/8-BIT WONDER.TTF");
+}
 body{
     margin: 0 10%;
-    background-image: url('../media/fundo3.svg');
+    background-image: url('../media/fundo.png');
     background-repeat: repeat;
+}
+.balao{
+	font-family: monospace;
+	border-radius: 3%;
+	padding: 4%;
+	background-color: rgba(255,255,255,0.8);
+	color: #000;
+}
+.topicos{
+	display: flex;
+	justify-content: flex-end;
+}
+.topicos li{
+	margin: 0 0.5%;
+	font-family: "Fipps";
+	display: inline-block;
+	padding: 3px;
+}
+.topicos li a{
+	text-decoration: none;
+	color: #FFF;
+}
+.balao h1{
+	font-family: "8BIT";
+}
+.redes-sociais li{
+	display: inline-block;
+}
+#destaque-redes-sociais{
+	float: left;
+	position: fixed;
+		left:0;
+}
+#destaque-redes-sociais li{
+	list-style: none;
+	display: block;
+}
+#destaque-redes-sociais li span{
+	transition: all 1s;
+	display: none;
+	font-family: 'Courier New', Courier, monospace;
+	position: relative;
+		top: -1em;
+	padding: 0.5em 1em 0.5em 0;
+	border: 1px solid #000;
+	background-color: #FFF;
+	color: black;
+}
+footer{
+	font-family: sans-serif;
+	padding: 1%;
+	background-color: #eee;
+	color: #000;
+	text-align: center;
 }
