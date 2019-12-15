@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <!--METADADOS-->
     <meta charset="utf-8"/>
@@ -25,47 +25,75 @@
     <link href="css/design.css" rel="stylesheet" id="Design"/>
     <link rel="shortcut icon" href="media/icone.png" type="image/png">
     <link rel="icon" href="media/icone.png" type="image/png">
+    <script src="js/jquery.js"></script>
     <script src="js/Funcoes.js"></script>
 </head>
 <body>
     <ul class="redes-sociais" id="destaque-redes-sociais">
-        <li><a href="www.twitter.com/Teclucas98"><img src="media/Tweet.png"></a><span>Twitter</span></li>
-        <li><a href="https://www.linkedin.com/in/lucas-matheus-costa-8794b416b/"><img src="media/Linkedin.png"></a><span>Linkedin</span></li>
-        <li><a href="https://github.com/Teclucas98/"><img src="media/GitHub.png"></a><span>Github</span></li>
-        <li><a href="https://teclucas98.itch.io/"><img src="media/itch_io.png"></a><span>Itch.io</span></li>
-        <li><a href="http://www.estudiodoluk.com.br/"><img src="media/Op_site.png"></a><span>Site</span></li>
+        <li><a href="http://www.twitter.com/Teclucas98" onmouseover="revelarSocialMedia(1)" onmouseout="esconderSocialMedia(1)"><img src="media/Tweet.png"></a><span><img src="media/notf_Twitter.gif" alt="GIF-Twitter">Twitter</span></li>
+        <li><a href="https://www.linkedin.com/in/lucas-matheus-costa-8794b416b/" onmouseover="revelarSocialMedia(2)" onmouseout="esconderSocialMedia(2)"><img src="media/Linkedin.png"></a><span><img src="media/notif_Linkedin.gif" alt="GIF-Linkedin">Linkedin</span></li>
+        <li><a href="https://github.com/Teclucas98/"><img src="media/GitHub.png" onmouseover="revelarSocialMedia(3)" onmouseout="esconderSocialMedia(3)"></a><span><img src="media/notif_Github.gif" alt="GIF-Github">Github</span></li>
+        <li><a href="https://teclucas98.itch.io/"><img src="media/itch_io.png" onmouseover="revelarSocialMedia(4)" onmouseout="esconderSocialMedia(4)"></a><span><img src="media/notif_Itch.gif" alt="GIF-Itch io">Itch.io</span></li>
+        <li><a href="http://www.estudiodoluk.com.br/"><img src="media/Op_site.png" onmouseover="revelarSocialMedia(5)" onmouseout="esconderSocialMedia(5)"></a><span><img src="media/notif_site.png" alt="PNG-Site">Site</span></li>
     </ul>
     <header>
-        <figure>
-            <img src="media/luk.svg" alt="">
-        </figure>
         <nav class="topicos" id="tarja-de-info">
             <li><a href="#Bio">#Bio</a></li>
             <li><a href="#Exp">#Works</a></li>
             <li><a href="#Projects">#Projects</a></li>
             <li><a href="#CeH">#Arsenal</a></li>
-            <li><a href="#Talk">#Talk</a>
+            <li><a href="#Talk">#Talk</a></li>
+            <li onmouseover="escolherIdioma()" onmouseout="recolherIdiomas()"><a href="#">#Languages</a><ul>
+                <li><a href="#"><img src="media/lang/pt-br.png" alt="Português"> Português (Brasil)</a></li>
+                <li lang="en-US"><a href="en.html"><img src="media/lang/en-us.png" alt="English"> English</a></li>
+                <li lang="zh-Hans"><a href="cn.html"><img src="media/lang/zh.png" alt="Mandarim"> 汉语</a></li>
+            </ul></li>
         </nav>
     </header>
     <section class="balao">
+            <figure>
+                <img src="media/luk.svg" alt="">
+            </figure>
         <section id="Bio">
             <h1>Biografia</h1>
-            <p>Meu nome verdadeiro é Lucas Matheus Cardoso da Costa, Tenho 20 anos, sou de origem brasileira e residente na cidade de Belém-PA.</p>
-		    <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Universidade do Estado do Pará – Campus XX em Castanhal-PA, com previsão de conclusão para julho de 2020. </p>
-		    <p>Digamos que eu sou um Cientista da Informática, sou auto-ditada onde mesmo com poucos recursos, nada impede a minha sede de conhecimento ,extrair o máximo de informações e resolver problemas com todos os desafios que são me impostos, sendo apaixonado pela mescla de tecnologia da informação com produção artística.</p> 
+            <figure  id="foto-feia" onmouseover="mudarAvatar()" onmouseout="voltarAvatar()">
+                <img src="media/Foto1.png" alt="Fotos">
+            </figure>
+            <p>Prazer me chamo <strong>Lucas Matheus Cardoso da Costa</strong> ou simplesmente <strong>Luk</strong> tenho 21 Anos e residente da cidade de <strong>Belém do Pará</strong></p>
+		    <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Universidade do Estado do Pará – Campus XX em Castanhal-PA, com previsão de conclusão para junho de 2020 e estagiando no <strong>Consórcio Troncal Belém</strong>.</p>
+		    <p>Entusiasta com Tecnologia e Audiovisual, Apaixonado por Jogos 2D desde dos 10 Anos, sou um desenvolvedor free-lancer que no tempo livre presta tais serviços e faz coisas para a internet.</p> 
         </section>
         <section id="Exp">
-            <h1>Experiencia Profissional</h1>
-            <h2>Único Trabalho "Profissional"</h2>
+            <h1>Experiencias</h1>
+            <h2>Edição de Vídeo (2012/13 - 2016)</h2>
+            <p>Durante o período de 2012 á 2016, eu fazia serviços de edição de vídeos para os meus colegas na escola, que me deu uma boa bagagem de conhecimento audio-visual que estava em voga na época por conta do youtube. <span style="text-decoration: line-through;">Bate até uma vergonha dessa época, pelo amor de deus o que eu tinha na cabeça.</span>Na época usava o Sony Vegas e mais pra frente passei a utilizar o Adobe Premiere.</p>
+            <a href="#" class="btn-Joystick">DEMO REEL</a>
+            <h2>Global Game Jam 2018</h2>
 		    <p>Participei da Global Game Jam no inicio de 2018 como Programador e <em>"Character Designer"</em> para a produção do Jogo Fast Transmition em parceria com a Mytch Entertainment, isso me mostrou e ensinou o trabalho em equipe para o desenvolvimento de um produto.</p>
-		    <h2>Edição de Vídeo</h2>
-		    <p>Eu trabalhei como Editor de Vídeo por um curto periodo de tempo, entre 2012 e 2016, e desenvolvi desde trabalhos escolares como Paródias musicais até produções completas para alguns canais do youtube como o Nerdometro e a Casa da Edição, aprendi um pouco mais do relacionamento Profissional-Cliente, além de me despertar um leque de criatividade para vários conteúdos diferentes.</p>
+            <a href="#" class="btn-Joystick">Clique aqui para jogar :D</a>
+            
+            <h2>ATLETICA IMPERADORES - UEPA (2017/18 - 18)</h2>
+            <p>Prestei alguns serviços na área de <strong>Social media</strong> para a até então recem-formada Atlética do 20º campus da Universidade do Estado do Pará. principalmente relacionado a criação de artes. posts semanais e entrega de artes em mídias sociais como o <em>Facebook</em> e por aplicativos de envio de mensagens como o <em>Whatsapp</em>.</p>
+            <a href="#" class="btn-Joystick">CLIQUE AQUI PARA ACESSAR AS ARTES</a>
+            
+            <h2>DIRETÓRIO ACADÊMICO - UEPA (2018 - 2019)</h2>
+            <p>Após a Atlética, migrei para a parte de <strong>Designer Gráfico</strong> e <strong>Webdesigner</strong> para o diretório acadêmico, tendo responsabilidades semelhantes ao serviço anterior, permaneci até Maio de 2019 com a próxima eleição.</p>
+            <a href="#" class="btn-Joystick">CLIQUE AQUI PARA TER ACESSO EM UMA PEQUENA AMOSTRA</a>
+            
+            <h2>ESTÁGIO - CONSÓRCIO TRONCAL BELÉM (2019 - *)</h2>
+            <p>Contratado como estagiário de <strong>Análista de Sistemas</strong> pelo <strong>Consórcio Troncal Belém</strong> para a obra do BRT Metropolitano no Canteiro, futura estação, de <strong>Ananindeua</strong>, presto serviço de programação voltada para mais para a parte de <em>front-end</em> para o sistema de gerenciamento da obra e acompanhada delas atividades de suporte de computadores e usuários.</p>
         </section>
         <section id="Projects">
             <h1>Projetos</h1>
-            <h2>Estúdio do Luk e <em>'By: Luk'</em></h2>
-            <p>Até 2018 como hobby ocasional, O Estúdio do Luk é onde eu faço produções audiovisuais voltadas para o tema nerd ou gamer por motivos pessoais, atendendo pelo codenome <strong>Luk</strong>(lê-se Luke).</p>
-            <h2>NightLabs</h2>
+            <h2>Estúdio do Luk</h2>
+            <figure style="text-align: center;">
+                <img src="media/logo.svg" alt="Logo do Estúdio">
+            </figure>
+            <p>De todos, talvez o que tenha mais carinho. O <strong>Estúdio do Luk</strong> eu criei em 2012-13 para atender a minha vontade de fazer pequenas produções audiovisuais em conjunto com alguns colegas de escola, na época ele tinha esse nome e atendia pelo codenome <strong>teclucas98</strong>, até hoje ele está de pé para todos os produtos de mídia que faço e atendo pelos meus três codenomes <strong>Luk</strong>, <strong>Teclucas98</strong> e <strong lang="zh-Hans">卢卡斯</strong>(Lú kǎ sī). <span style="text-decoration:line-through">todas são uma variação do meu nome porque eu não sou muito bom com nomes como deu para perceber</span></p>
+            <h2>NightLabs Software</h2>
+            <figure id="NightLabs-Logo" style="text-align:center">
+                <img src="media/Logo_NightLabs.png" alt="Logo da NightLabs Software">
+            </figure>
             <p>Com o curso de TADS e uma paixão antiga por jogos nasceu a NightLabs Software, antes batizada de Lonely Leaf Team na GGJ2018, um estúdio de jogos informal formado por amigos que sonham ser gamedevs profissionais, atualmente ele tá com o seu primeiro projeto Silent Library. Eu(Lucas) estou responsável por 85% do projeto, recebendo ajuda principalmente com roteiro e trilha sonora que será produzida pelo produtor musical <a href="https://lnhgabe.wixsite.com/rockemissary">Gabe Lanhellas</a>.</p>
         </section>
         <section id="CeH">
@@ -120,7 +148,8 @@
 		    </ul>
 		    <h2>Versionamento de Código</h2>
 		    <ul>
-			    <li>Github</li>
+                <li>Git</li>
+                <li>Svn</li>
 		    </ul>
         </section>
         <footer>
@@ -128,10 +157,10 @@
                     <li><a href="www.twitter.com/Teclucas98"><img src="media/Tweet.png"></a></li>
                     <li><a href="https://www.linkedin.com/in/lucas-matheus-costa-8794b416b/"><img src="media/Linkedin.png"></a></li>
                     <li><a href="https://github.com/Teclucas98/"><img src="media/GitHub.png"></a></li>
-                    <li><a href="mailto:teclucas.costa@hotmail.com"><img src="media/Email.png"></a></li>
+                    <li><a href="https://teclucas98.itch.io/"><img src="media/itch_io.png"></a></li>
                     <li><a href="http://www.estudiodoluk.com.br/"><img src="media/Op_site.png"></a></li>
                 </ul>
-            &copy; 2019 - Lucas Matheus Costa <br/> Developed by: Lucas Matheus Costa <br/> Email : <i>teclucas.costa@hotmail.com</i>
+            &copy; 2018-19 - Estúdio do Luk <span style="font-size: 11px;">MEI</span> <br/> Developed by: Lucas Matheus Costa <br/> Email : <em><a href="mailto:teclucas.costa@hotmail.com">teclucas.costa@hotmail.com</a></em>
         </footer>
     </section>
 </body>

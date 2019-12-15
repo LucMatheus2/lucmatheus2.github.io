@@ -1,3 +1,4 @@
+/* Geral */
 @font-face{
 	font-family: "Fipps";
 	src: url("../font/Fipps-Regular.otf");
@@ -11,6 +12,11 @@ body{
     background-image: url('../media/fundo.png');
     background-repeat: repeat;
 }
+section{
+	margin: 2% 0;
+}
+
+/* CLASSE PRINCIPAL */
 .balao{
 	font-family: monospace;
 	border-radius: 3%;
@@ -18,6 +24,11 @@ body{
 	background-color: rgba(255,255,255,0.8);
 	color: #000;
 }
+.balao h1{
+	font-family: "8BIT";
+}
+
+/* Menu de Seleção */
 .topicos{
 	display: flex;
 	justify-content: flex-end;
@@ -32,24 +43,43 @@ body{
 	text-decoration: none;
 	color: #FFF;
 }
-.balao h1{
-	font-family: "8BIT";
+
+/* Menu de Seleção (Específico) */
+#tarja-de-info li a:hover{
+	color:#F00;
 }
+#tarja-de-info li ul{
+	display: none;
+}
+#tarja-de-info li ul li{
+	display:block;
+}
+/*Botão de play */
+.btn-Joystick{
+	text-decoration: none;
+	color: #FFF;
+	padding: 0.7em;
+	background-color: #C92C61;
+	font-family: "8BIT";
+	text-transform: uppercase;
+	text-shadow: #000 2px;
+}
+.btn-Joystick:hover{
+	color: #C92C61;
+	background-color: #FFF;
+}
+/* Classe - Redes Sociais */
 .redes-sociais li{
 	display: inline-block;
 }
-#destaque-redes-sociais{
-	float: left;
-	position: fixed;
-		left:0;
-}
+
+/* Menu lateral de Redes Sociais */
 #destaque-redes-sociais li{
 	list-style: none;
 	display: block;
 }
 #destaque-redes-sociais li span{
-	transition: all 1s;
-	display: none;
+	visibility: hidden;
 	font-family: 'Courier New', Courier, monospace;
 	position: relative;
 		top: -1em;
@@ -58,10 +88,52 @@ body{
 	background-color: #FFF;
 	color: black;
 }
+#destaque-redes-sociais li:hover{
+	transition: all 1s;
+}
+/* Isso tá uma bagunça */
 footer{
 	font-family: sans-serif;
 	padding: 1%;
 	background-color: #eee;
 	color: #000;
 	text-align: center;
+}
+@media only screen and (min-width:800px){
+	#NightLabs-Logo{
+		width: 50%;
+	}
+	#NightLabs-Logo img{
+		width: 100%;
+	}
+	#destaque-redes-sociais{
+		float: left;
+		position: fixed;
+			left:0;
+	}
+	#foto-feia{
+		float: left;
+		width:35%;
+	}
+	#foto-feia img{
+		width:100%;
+	}
+}
+@media only screen and (max-width:800px){
+	figure {
+		width: 100%;
+	}
+	figure img{
+		width: 100%;
+	}
+	#destaque-redes-sociais{
+		display: none;
+	}
+	/* Minha foto feia */
+	#foto-feia{
+		width:80%;
+	}
+	#foto-feia img{
+		width: 100%;
+	}
 }
