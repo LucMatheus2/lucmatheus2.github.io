@@ -99,6 +99,14 @@ footer{
 	color: #000;
 	text-align: center;
 }
+footer a{
+	text-decoration: none;
+	font-weight: 600;
+	color: #C92C61;
+}
+footer a:hover{
+	color: red;
+}
 @media only screen and (min-width:800px){
 	#NightLabs-Logo{
 		width: 50%;
