@@ -9,7 +9,7 @@
 }
 body{
     margin: 0 10%;
-    background-image: url('../media/fundo.png');
+    background-image: url('../media/fundo.svg');
     background-repeat: repeat;
 }
 section{
@@ -59,7 +59,7 @@ section{
 	text-decoration: none;
 	color: #FFF;
 	padding: 0.7em;
-	background-color: #C92C61;
+	background-color: #000827;
 	font-family: "8BIT";
 	text-transform: uppercase;
 	text-shadow: #000 2px;
@@ -102,10 +102,14 @@ footer{
 footer a{
 	text-decoration: none;
 	font-weight: 600;
-	color: #C92C61;
+	color: #000827;
 }
 footer a:hover{
 	color: red;
+}
+#Projects figure{
+	position: relative;
+	left: 20%;
 }
 @media only screen and (min-width:800px){
 	#NightLabs-Logo{
