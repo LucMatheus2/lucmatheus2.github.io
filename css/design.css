@@ -1,151 +1,156 @@
-/* Geral */
-@font-face{
+@font-face {
 	font-family: "Fipps";
 	src: url("../font/Fipps-Regular.otf");
-}
-@font-face{
-	font-family: "8BIT";
-	src: url("../font/8-BIT WONDER.TTF");
-}
-body{
-    margin: 0 10%;
-    background-image: url('../media/fundo.svg');
-    background-repeat: repeat;
-}
-section{
-	margin: 2% 0;
-}
 
-/* CLASSE PRINCIPAL */
-.balao{
-	font-family: monospace;
-	border-radius: 3%;
-	padding: 4%;
-	background-color: rgba(255,255,255,0.8);
-	color: #000;
+	font-family: "babyblue";
+	src: url("../font/babyblue.ttf");
 }
-.balao h1{
-	font-family: "8BIT";
+body {
+	background-color: #EEE;
+	font-family: "babyblue";
 }
-
-/* Menu de Seleção */
-.topicos{
-	display: flex;
-	justify-content: flex-end;
+header {
+	background-image: url("../img/fundo.svg");
+	padding: 5%;
 }
-.topicos li{
-	margin: 0 0.5%;
+header h1 {
+	color: #FFF;
 	font-family: "Fipps";
-	display: inline-block;
-	padding: 3px;
 }
-.topicos li a{
-	text-decoration: none;
-	color: #FFF;
-}
-
-/* Menu de Seleção (Específico) */
-#tarja-de-info li a:hover{
-	color:#F00;
-}
-#tarja-de-info li ul{
-	display: none;
-}
-#tarja-de-info li ul li{
-	display:block;
-}
-/*Botão de play */
-.btn-Joystick{
-	text-decoration: none;
-	color: #FFF;
-	padding: 0.7em;
-	background-color: #000827;
-	font-family: "8BIT";
-	text-transform: uppercase;
-	text-shadow: #000 2px;
-}
-.btn-Joystick:hover{
-	color: #C92C61;
-	background-color: #FFF;
-}
-/* Classe - Redes Sociais */
-.redes-sociais li{
-	display: inline-block;
-}
-
-/* Menu lateral de Redes Sociais */
-#destaque-redes-sociais li{
-	list-style: none;
-	display: block;
-}
-#destaque-redes-sociais li span{
-	visibility: hidden;
-	font-family: 'Courier New', Courier, monospace;
-	position: relative;
-		top: -1em;
-	padding: 0.5em 1em 0.5em 0;
-	border: 1px solid #000;
-	background-color: #FFF;
-	color: black;
-}
-#destaque-redes-sociais li:hover{
-	transition: all 1s;
-}
-/* Isso tá uma bagunça */
-footer{
-	font-family: sans-serif;
-	padding: 1%;
-	background-color: #eee;
-	color: #000;
+footer {
 	text-align: center;
+	background-color: #DDD;
 }
-footer a{
+#menuDeSelecao ul li {
+	margin-top: 2%;
+	padding: 1%;
+	border: 2px solid #000;
+	background-color: #FFF;
+	list-style: none;
+}
+#menuDeSelecao ul li:hover {
+	transition: transform 1s;
+	transform: translateX(5%);
+	background-color: #c6e5ff;
+	font-weight: bold;
+}
+#menuDeSelecao ul li:last-child {
+	border: none;
+	transform: none;
+	background-color:#FFF;
+}
+#menuDeSelecao ul li a{
 	text-decoration: none;
-	font-weight: 600;
-	color: #000827;
+	color: #000;
 }
-footer a:hover{
+#btnMenu {
+	border-color: #FFF;
+	position: fixed;
+		top: 1%;
+		left: 1%;
+	background-color: #000827;
+	color: #FFF;
+	font-size: 40pt;
+}
+#menuDeSelecao {
+	position: fixed;
+		top: 0;
+		left: 0;
+	height: 100%;
+	background-color: #FFFFFF9a;
+	transform: translateX(-100%);
+}
+#menuDeSelecao figure {
+	max-width: 90%;
+}
+#menuDeSelecao figure img {
+	border-radius: 50%;
+	max-width: 100%;
+}
+#menuDeSelecao p:last-child{
+	text-align: center;
+	font-style: italic;
+}
+section {
+	padding: 3%;
+	background-color: white;
+	border-radius: 5%;
+	margin: 1% 3%;
+}
+.redes-sociais ul li{
+	display: inline;
+}
+
+.redes-sociais ul li a img {
+	opacity: 0.7;
+	transform: scale(0.9);
+}
+.redes-sociais ul li a img:hover {
+	transition: all 1s;
+	opacity: 1;
+	transform: scale(1.1);
+}
+#idiomas ul li {
+	border: 0;
+	display: inline;
+}
+#idiomas ul li a img{
+	opacity: 1;
+}
+#idiomas ul li a img:hover{
+	transition: transform 0.6s;
+	transform: scale(1.2);
+}
+#fotoSobre img {
+	border-radius: 6%;
+	max-width: 100%;
+}
+section#Exp h1,section#Exp h2,section#Exp h3,section#Exp h4,section#Exp h5,section#Exp h6{
+	font-family: "Fipps";
+	border-bottom: 1px solid #000;
+}
+section#Feed h2{
+	border-bottom: 1px solid gray;
+}
+section#Feed a {
+	text-decoration: none;
+}
+section#ini p:first-letter {
+	font-size: 24pt;
 	color: red;
 }
-#Projects figure{
-	position: relative;
-	left: 20%;
+#CeH abbr {
+	text-decoration: none;
+	color: tomato;
 }
-@media only screen and (min-width:800px){
-	#NightLabs-Logo{
-		width: 50%;
+@media screen and (min-width:800px){
+	body{
+		margin: 0;
+		padding: 0;
 	}
-	#NightLabs-Logo img{
-		width: 100%;
-	}
-	#destaque-redes-sociais{
+	#fotoSobre {
+		width: 19%;
+		max-width: 30%;
 		float: left;
-		position: fixed;
-			left:0;
 	}
-	#foto-feia{
-		float: left;
-		width:35%;
-	}
-	#foto-feia img{
-		width:100%;
+	#menuDeSelecao {
+		width: 20%;
 	}
 }
-@media only screen and (max-width:800px){
-	figure {
-		width: 100%;
+@media screen and (max-width:800px){
+	header h1, section, footer{
+		text-align: center;
 	}
-	figure img{
-		width: 100%;
+	#fotoSobre {
+		max-width: 90%;
 	}
-	#destaque-redes-sociais{
-		display: none;
+	section ul {
+		text-align: left;
 	}
-	/* Minha foto feia */
-	#foto-feia{
-		width:80%;
+	section p{
+		text-align: justify;
 	}
-	#foto-feia img{
-		width: 100%;
+	#menuDeSelecao {
+		width: 80%;
 	}
 }
