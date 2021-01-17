@@ -34,11 +34,6 @@ footer {
 	background-color: #c6e5ff;
 	font-weight: bold;
 }
-#menuDeSelecao ul li:last-child {
-	border: none;
-	transform: none;
-	background-color:#FFF;
-}
 #menuDeSelecao ul li a{
 	text-decoration: none;
 	color: #000;
