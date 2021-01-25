@@ -58,7 +58,6 @@ function alternarMenu() {
 function alterarTituloDaPagina(secao) {
     let titulo = secao.name;
     titulo = titulo.replace("-"," ");
-    console.log(titulo);
 
     if (titulo == "Bem vindo") {
         document.title = "Luk's Room"
