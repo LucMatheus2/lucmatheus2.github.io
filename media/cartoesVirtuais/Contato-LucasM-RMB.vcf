@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Matheus;Lucas;
+FN:Lucas Matheus Cardoso da Costa
+NICKNAME:Luk
+PHOTO:TYPE=JPG;VALUE=URI:https://teclucas98.github.io/Portfolio/img/Foto.jpg
+ORG:Estudio Do Luk MEI
+URL:http://www.estudiodoluk.com.br
+TITLE:Programador e Gamedev 2D
+TEL;TYPE=CELL:98399-1651
+EMAIL:lucas.costa@estudiodoluk.com.br
+CATEGORIES:teste;
+REV:20210131
+END:VCARD
