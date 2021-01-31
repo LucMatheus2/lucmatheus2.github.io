@@ -12,7 +12,27 @@ function carregarAutomaticamente(){
     mostrarMenu();
     esconderSecoes();
     atribuirLinks();
-    mostrarSecao(document.getElementsByName('Bem-vindo')[0]);
+    carregarPaginaInicialConformeOIdioma(document.children[0].lang);
+}
+/**
+ * Carregar a primeira aba
+ * @param {string} lang O idioma da página
+ */
+function carregarPaginaInicialConformeOIdioma(lang) {
+    switch (lang) {
+        case 'pt-BR':
+            mostrarSecao(document.getElementsByName('Bem-vindo')[0]); 
+            break;
+        case 'en-US':
+            mostrarSecao(document.getElementsByName('Welcome')[0]);
+            break;
+        case 'zh':
+            mostrarSecao(document.getElementsByName('屋')[0]);
+            break;
+        default:
+            mostrarSecao(document.getElementsByName('Bem-vindo')[0]); 
+            break;
+    }
 }
 function mostrarOCopyrightNoRodape() {
     var data = new Date();
