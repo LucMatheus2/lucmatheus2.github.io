@@ -1,6 +1,11 @@
+//Autoload
 document.onload = carregarAutomaticamente();
+//Variaveis Globais
 var menu = true;
+// Eventos DOM
 document.getElementById('btnMenu').addEventListener('click',alternarMenu);
+document.getElementById('fotoSobre').addEventListener('mouseenter',mudarFotoReal);
+document.getElementById('fotoSobre').addEventListener('mouseleave',mudarFotoParaAvatar);
 
 function carregarAutomaticamente(){
     mostrarOCopyrightNoRodape();
@@ -97,6 +102,9 @@ function atribuirLinkIndividual(url){
     nossoId = nossoId.replace("#","");
     return nossoId;
 }
-function pesquisaAjax(){
-    
+function mudarFotoReal(){
+    document.querySelector("#fotoSobre img").src = "img/luk2.gif";
+}
+function mudarFotoParaAvatar(){
+    document.querySelector("#fotoSobre img").src = "img/Foto.jpg";
 }
