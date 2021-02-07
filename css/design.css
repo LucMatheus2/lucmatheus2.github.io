@@ -15,7 +15,7 @@ header {
 }
 header h1 {
 	color: #FFF;
-	font-family: "Fipps";
+	font-family: "Fipps",sans-serif;
 }
 footer {
 	text-align: center;

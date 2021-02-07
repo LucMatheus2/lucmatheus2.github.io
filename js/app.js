@@ -26,7 +26,7 @@ function carregarPaginaInicialConformeOIdioma(lang) {
         case 'en-US':
             mostrarSecao(document.getElementsByName('Welcome')[0]);
             break;
-        case 'zh':
+        case 'zh-CN':
             mostrarSecao(document.getElementsByName('屋')[0]);
             break;
         default:
