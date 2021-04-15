@@ -38,7 +38,7 @@ function mostrarOCopyrightNoRodape() {
     var data = new Date();
     data = String(data.getFullYear());
 
-    document.getElementById('rodapeAutoral').innerHTML = `&copy 2017-${data} - Estúdio do Luk`;
+    document.getElementById('rodapeAutoral').innerHTML = `&copy 2017-${data} - Lucas Matheus Costa`;
 }
 function mostrarMenu(){
     var menuMovel = document.getElementById('menuDeSelecao');
