@@ -3,7 +3,7 @@
 Prazer, me chamo Lucas e bem-vindo ao meu Github  
 
 Link em Português:   
-[Clique Aqui](https://teclucas98.github.io/Portfolio/)   
+[Clique Aqui](https://lucmatheus.github.io/Portfolio/)   
 -----------------------------   
 Link in English:   
-[Clique Aqui](https://teclucas98.github.io/Portfolio/en.html) 
+[Clique Aqui](https://lucmatheus.github.io/Portfolio/en.html) 
