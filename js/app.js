@@ -126,5 +126,5 @@ function mudarFotoReal(){
     document.querySelector("#fotoSobre img").src = "img/luk2.gif";
 }
 function mudarFotoParaAvatar(){
-    document.querySelector("#fotoSobre img").src = "img/Foto.jpg";
+    document.querySelector("#fotoSobre img").src = "img/Foto2.jpg";
 }
