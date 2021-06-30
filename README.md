@@ -2,8 +2,13 @@
 
 Prazer, me chamo Lucas e bem-vindo ao meu Github  
 
+[Universal link](https://www.lucasmatheuscosta.dev.br/)   
+-------------------------------------------------------
 Link em Português:   
-[Clique Aqui](https://lucmatheus.github.io/Portfolio/)   
+[Clique Aqui](https://www.lucasmatheuscosta.dev.br/pt_BR)   
 -----------------------------   
-Link in English:   
-[Clique Aqui](https://lucmatheus.github.io/Portfolio/en.html) 
+Link (English):   
+[Click here](https://www.lucasmatheuscosta.dev.br/en_US)   
+------------------------------
+Link (汉字):
+[Click here](https://www.lucasmatheuscosta.dev.br/zh_CN)
