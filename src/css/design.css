@@ -118,6 +118,24 @@ section#ini {
 	display: block;
 	text-align: center;
 }
+noscript {
+	padding: 0 20%;
+	position: fixed;
+		top: 0;
+		left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFF00CD;
+	color: #000;
+	font-family:sans-serif;
+}
+noscript h4,noscript ul{
+	text-align: left;
+	list-style: outside;
+}
+noscript a {
+	color: darkred;
+}
 /* Exceções para PC */
 @media screen and (min-width:1100px) {
 	header {

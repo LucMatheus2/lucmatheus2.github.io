@@ -1,1 +1,15 @@
-<h1>Reform</h1>
+<script>
+    document.write("<h1>Em construcao</h1>");
+    document.write("<p><a href='../'>Voltar</a></p>");
+    
+    //Teste
+    fetch('../src/db/array.json')
+    .then((r) => r.json())
+    .then((r) => {
+        console.log(r)
+    })
+    .catch((e) => {
+        console.log('Erro');
+    });
+
+</script>
