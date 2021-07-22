@@ -98,15 +98,15 @@ select option {
 #Bio {
 	text-align: justify;
 }
-.indexCartaoDeApresentacao iframe{
-	width: 100%;
-	height: 100%;
-}
 .indexCartaoDeApresentacao figcaption {
 	width: max-content;
 	text-align: center;
 	background-color: #FFF;
 	color: #000;
+}
+.indexCartaoDeApresentacao img:hover{
+	transition: ease-out 0.5s;
+	transform: scale(1.5);
 }
 .listaIndex li{
 	display: inline-block;
@@ -162,8 +162,13 @@ noscript a {
 	#foto img {
 		max-width: 20%;
 	}
-	.indexCartaoDeApresentacao iframe{
-		width: 350px;
-		height: 550px;
+	.indexCartaoDeApresentacao img{
+		max-width: 400px;
+	}
+}
+/* Exceção pra celular */
+@media screen and (max-width:800px) {
+	.indexCartaoDeApresentacao img{
+		max-width: 100%;
 	}
 }
