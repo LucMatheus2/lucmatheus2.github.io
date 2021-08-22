@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- METADADOS -->
+    <meta property="og:locale" content="pt_BR">
+    <title>Estúdio do Luk.log</title>
+    <meta name="description" property="og:description" content="Arquivo do Estúdio do Luk, projeto multimídia do Lucas existente desde 2013 (antes no youtube).">
+    <link rel="shortcut icon" href="../../src/img/favicon.ico" type="image/x-icon">
+    
+    <!-- OG -->
+    <meta propety="og:site_name" content="(Arquivo do) Estúdio do Luk">
+    <meta property="og:title" content="Estúdio do Luk">
+    <meta property="og:type" content="website">
+
+    <!-- IMPORTAÇÕES -->
+    <link rel="stylesheet" href="../../src/css/design.css">
+    <link rel="stylesheet" href="../../src/css/esp.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../../"><img src="../../src/img/Logo.svg" alt="Logo - Estúdio do Luk"></a></h1>
+    </header>
+    <section>
+        <p id="lblFiltro">Ano: <select name="timeMachine">
+            <option value="todos" selected>Tanto faz</option>
+        </select></p>
+        <h2>Meus Joguinhos</h2>
+        <p>Acredito que essa possa ser a parte mais especial, aqui fica os jogos que desenvolvo ou fico na equipe de desenvolvimento.</p>
+        <nav>
+            <ul id="containerConteudo">
+                
+            </ul>
+        </nav>
+    </section>
+    <footer>
+        <nav id="redesSociais">
+            <ul>
+                <li><a href="https://www.facebook.com/Est%C3%BAdio-do-Luk-106158525114414/" target="_blank"><img src="../../src/img/midias_sociais/Face.png" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com/luk_prods" target="_blank"><img src="../../src/img/midias_sociais/Tweet.png" alt="Twitter"></a></li>
+                <li><a href="https://www.youtube.com/channel/UC1CBGv8EPVxT5XNMGrO-9LA" target="_blank"><img src="../../src/img/midias_sociais/Youtube.png" alt="Youtube"></a></li>
+                <li><a href="https://www.instagram.com/luk_prods/" target="_blank"><img src="../../src/img/midias_sociais/Insta.png" alt="Instagram"></a></li>
+                <li><a href="https://lukprods.itch.io/" target="_blank"><img src="../../src/img/midias_sociais/itch_io.png" alt="itch_io"></a></li>
+                <li><a href="https://www.twitch.tv/luk_prods" target="_blank"><img src="../../src/img/midias_sociais/Twitch.png" alt="Twitch"></a></li>
+            </ul>
+        </nav>
+        <p id="cp"></p>
+        <p><em>E-mail pra contato: <a href="mailto:contato.estudiodoluk@outlook.com">contato.estudiodoluk@outlook.com</a></em></p>
+        <p><em>Tel/Whatsapp: <a href="https://api.whatsapp.com/send?phone=5591983991651">+55 (91) 98399-1651</a></em></p>
+    </footer>
+    <script src="../../src/js/app.js"></script>
+    <script>
+        definirACategoriaNoEscopo('jogo');
+        mapearObras();
+    </script>
+</body>
+</html>

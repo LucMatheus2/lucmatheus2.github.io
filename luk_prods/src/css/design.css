@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Babyblue';
+    src: url('../font/babyblue.ttf');
+}
+/* Especificidades */
+
+/* Celular */
+@media screen and (max-width:800px) {
+    img {
+        max-width: 100%;
+    }
+    body {
+        margin: 0 5%;
+    }
+}
+
+/* Tablet e PC */
+@media screen and (min-width:800px) {
+    body {
+        margin: 0 20%;
+    }
+    #redesSociais ul li img {
+        opacity: 0.6;
+    }
+    #redesSociais ul li img:hover {
+        transition: all 0.4s;
+        transform: translateY(-3%);
+        opacity: 1;
+    }
+}
+
+/* Geral */
+body {
+    background-image: url('../img/fundo.svg');
+    background-repeat: repeat;
+    font-family: 'Babyblue',monospace;
+}
+p {
+    text-indent: 5%;
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    text-align: center;
+}
+
+section, footer {
+    padding: 3%;
+    background-color: #FFFFFF95;
+    color: #000;
+}
+section {
+    text-align: justify;
+    margin: 3.5% 0%;
+}
+footer {
+    text-align: center;
+}
+#cp {
+    font-weight: bold;
+    font-style: italic;
+}
+.aviso16Anos {
+    background-color: pink;
+    color: darkred;
+}
+#containerConteudo {
+    margin: 0 5%;
+}
+#lblFiltro {
+    text-align: right;
+}
+#redesSociais ul {
+    list-style: none;
+}
+#redesSociais ul li {
+    display: inline;
+}
+#contadorDeVideos {
+    margin: 4% 0;
+    text-align: center;
+    font-weight: bold;
+}
