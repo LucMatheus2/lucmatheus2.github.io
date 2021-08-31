@@ -27,7 +27,8 @@ function colocarAsAcoesNosBotoes() {
 function atribuirOCopyright() {
     var copyright = document.getElementById('cpr');
     var ano = new Date();
-    let stringDoEmail = "<a href='mailto:teclucas.costa@hotmail.com'>teclucas.costa@hotmail.com</a>";
+    let email = "contato.lucasmatheuscosta@outlook.com.br"
+    let stringDoEmail = `<a href='mailto:${email}'>${email}</a>`;
     const INICIO = 2017;
 
     ano = String(ano.getFullYear());
