@@ -495,5 +495,68 @@
         "tipo":"arte",
         "ano":"2021",
         "url":"https://www.instagram.com/p/CSwd7Z0g8P1/?utm_source=ig_web_copy_link"
+    },
+    {
+        "id":"71",
+        "titulo":"SimMega",
+        "tipo":"software",
+        "ano":"2020",
+        "url":"https://github.com/LucMatheus/SimMega"
+    },
+    {
+        "id":"72",
+        "titulo":"Scripts Gerais",
+        "tipo":"software",
+        "ano":"2020",
+        "url":"https://github.com/LucMatheus/general-scripts"
+    },
+    {
+        "id":"73",
+        "titulo":"Tipos sanguineos usando PROLOG",
+        "tipo":"software",
+        "ano":"2020",
+        "url":"https://github.com/LucMatheus/tipos-sanguineos-prolog"
+    },
+    {
+        "id":"74",
+        "titulo":"(TCC) Meu Vigilante",
+        "tipo":"software",
+        "ano":"2020",
+        "url":"https://github.com/LucMatheus/meu-vigilante"
+    },
+    {
+        "id":"75",
+        "titulo":"(Encomendado) Sistema de Cadastro de Passagens",
+        "tipo":"software",
+        "ano":"2021",
+        "url":"https://github.com/LucMatheus/siscaps"
+    },
+    {
+        "id":"76",
+        "titulo":"(pacote/png) New Pixel Gallery",
+        "tipo":"software",
+        "ano":"2021",
+        "url":"https://github.com/LucMatheus/NewPixelGallery"
+    },
+    {
+        "id":"77",
+        "titulo":"GuanaPy",
+        "tipo":"software",
+        "ano":"2019",
+        "url":"https://github.com/LucMatheus/GuanaPy"
+    },
+    {
+        "id":"78",
+        "titulo":"JDado",
+        "tipo":"software",
+        "ano":"2021",
+        "url":"https://lucmatheus.github.io/JDado/"
+    },
+    {
+        "id":"79",
+        "titulo":"C 4 Fun",
+        "tipo":"software",
+        "ano":"2019",
+        "url":"https://github.com/LucMatheus/C_4_Fun"
     }
 ]
