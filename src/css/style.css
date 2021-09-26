@@ -1,0 +1,93 @@
+/* Geral */
+body {
+    background-image: url('../img/fundo.png');
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    text-align: justify;
+    text-indent: 5%;
+}
+header,section,footer {
+    border: 2px solid #000;
+    background-color: #FFF;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#menuIndex nav ul li  {
+    display: inline-block;
+}
+#menuIndex nav ul li figure figcaption {
+    text-align: center;
+    border: 2px solid #000;
+    font-variant: small-caps;
+}
+#menuIndex nav ul li figure img {
+    max-width: 100%;
+    filter: grayscale(50%);
+}
+#menuIndex nav ul li figure img:hover {
+    max-width: 100%;
+    filter: grayscale(0%);
+}
+#h2index {
+    font-weight: normal;
+    font-style: italic;
+}
+.redesSociais ul {
+    list-style: none;
+}
+.redesSociais ul li{
+    display: inline;
+}
+.redesSociais ul li img{
+    opacity: 0.8;
+}
+.redesSociais ul li:hover img{
+    transition: all 0.4s;
+    opacity: 1;
+    transform: translateY(-5%);
+}
+/* Celular */
+@media screen and (max-width:767px) {
+    body {
+        margin: 0 5%;
+        text-align: center;
+    }
+    header,section,footer { 
+        padding: 1%;
+    }
+    #menuIndex nav ul li figure {
+        max-width: 90%;
+    }
+    footer p img {
+        max-width: 70%;
+    }
+}
+
+/* PC */
+@media screen and (min-width:767px) {
+    body {
+        margin: 0 20%;
+    }
+    header,section,footer { 
+        padding: 2.5%;
+    }
+    #menuIndex nav ul li figure {
+        max-width: 35%;
+    }
+    footer p img {
+        max-width: 10%;
+    }
+    #foto {
+        float: left;
+        max-width: 32%;
+    }
+    #foto img {
+        max-width: 100%;
+    }
+}
