@@ -67,6 +67,9 @@ a:hover {
     footer p img {
         max-width: 70%;
     }
+    #foto, #foto img {
+        max-width: 100%;
+    }
 }
 
 /* PC */
