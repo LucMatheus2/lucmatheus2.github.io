@@ -91,9 +91,15 @@ footer
 {
     margin-top: 0;
     padding: 2%;
+    border: none;
 }
 #menu_cabecalho a
 {
     text-decoration: none;
-    color: purple;
+    color: #641b2f;
+}
+
+#menu_cabecalho a:hover li
+{
+    text-decoration: underline;
 }
