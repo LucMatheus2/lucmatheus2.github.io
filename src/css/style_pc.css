@@ -1,0 +1,13 @@
+.menu ul li
+{
+    margin-top: 2%;
+}
+#menu_index nav
+{
+    margin: 0 10%;
+}
+#menu_cabecalho ul li
+{
+    display: inline-block;
+    padding: 0.5% 2%;
+}
