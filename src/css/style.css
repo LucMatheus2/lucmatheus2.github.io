@@ -1,105 +1,56 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
-@font-face
-{
-    font-family: "Minecraft";
-    src: url("../font/Minecraft.ttf");
-}
 html
-{ 
-    font-family: "Minecraft",monospace;
-    text-align: center;
-
-    color: #fff;
-    background-color: #641b2f;
+{
+    background-color: purple;
+}
+body
+{
+    margin: 0 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'DejaVu Sans' ,sans-serif;
     font-weight: lighter;
-}
-figure, img
-{
-    max-width: 100%;
-}
-section
-{
+    background-color: #EEE;
     text-align: justify;
-    margin: 2% 4%;
 }
-footer 
+header
 {
-    padding: 5%;
-    background-color: black;
-    color: white;
+    text-align: left;
+    margin-left: 3%;
 }
-#logo 
+footer
 {
-    background-color: #FFF;
+    background-color: #000;
+    color: #eee;
 }
-#alerta_site_temporario
+header,section,footer
 {
-    margin: 0;
-    background-color: pink;
-    color: darkred;
-    text-align: center;
+    padding: 1.5% 3%;
 }
-.menu ul 
+#logo
 {
+    max-width: 480px;
+}
+/* Menu de opções */
+#menu
+{
+    padding: 2%;
+}
+#menu ul li
+{
+    padding: 0.5%;
+    margin: 0.5%;
+    width: 25%;
     list-style: none;
-}
-.menu ul li
-{
-    background-color: #FFF;
-    padding: 1%;
     border: 2px solid #000;
 }
-.bussola
+#menu ul li:hover
 {
-    margin: 0;
-    padding: 1%;
-    background-color: lightblue;
-    color: darkblue;
-}
-#menu_index
-{
-    text-align: center;
-}
-#menu_index nav ul a
-{
-    color: darkred;
-    text-decoration: none;
-}
-#menu_index nav ul li
-{
-    margin-top: 4%;
-}
-#menu_index nav ul a:hover
-{
-    color: #FFF;
-    text-decoration: underline;
-}
-#menu_index nav ul a:hover li
-{
-    background-color: darkred;
-}
-#menu_cabecalho
-{
-    padding-bottom: 2%;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+    transform:translateX(5%);
     background-color: #FFF;
+    color: purple;
 }
-#menu_cabecalho ul li
-{
-    margin-top: 0;
-    padding: 2%;
-    border: none;
-}
-#menu_cabecalho a
+#menu ul a
 {
     text-decoration: none;
-    color: #641b2f;
+    color: #000;
 }
-
-#menu_cabecalho a:hover li
-{
-    text-decoration: underline;
-}
+/* ------------------ */
